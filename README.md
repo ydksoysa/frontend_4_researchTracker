@@ -1,21 +1,39 @@
-# React Auth (TypeScript) - Login & Register
+# Research Project Tracker - Frontend
 
-This is a minimal React + TypeScript starter project that implements:
-- Login (POST /api/auth/login)
-- Register (POST /api/auth/signup)
-- JWT token stored in localStorage and attached to axios requests
+This is the **React + TypeScript frontend** for the **Research Project Tracker** system of an educational institute. It connects to a **Spring Boot backend** to manage projects, milestones, and documents, with role-based access and JWT-based authentication.
 
-## Setup
-1. Install dependencies:
-   ```
-   npm install
-   ```
-2. Start the dev server:
-   ```
-   npm start
-   ```
-3. Configure backend URL in `src/api/axiosInstance.ts` (default: http://localhost:8080/api)
+---
 
-## Notes
-- This project uses React Router v6.
-- Replace backend endpoints if needed to match your Spring Boot server.
+## Objective
+
+Develop a responsive and interactive React frontend that:
+
+- Connects seamlessly with the Spring Boot backend.
+- Allows users to **manage projects, milestones, and documents**.
+- Enforces **role-based access control**.
+- Uses **JWT tokens** for authentication and session management.
+
+---
+
+## Tech Stack
+
+- **Frontend Framework:** React (TypeScript template)
+- **Routing:** React Router
+- **HTTP Client:** Axios
+- **State Management:** Context API
+- **Styling:** React Bootstrap or Tailwind CSS
+- **Authentication:** JWT tokens
+
+---
+
+## Project Setup
+
+1. **Create React Project with TypeScript**
+
+```bash
+npx create-react-app research-tracker --template typescript
+Install Required Libraries
+
+bash
+Copy code
+npm install react-router-dom axios react-bootstrap bootstrap jwt-decode
